@@ -3,10 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Laboratorium2.Zadanie1.NET"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="200" Width="300">
     <Grid>
+        <TextBox x:Name="DividendTextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap"
+                 Text="" VerticalAlignment="Top" Width="120" />
+        <Label Content="Dividend" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" />
 
+        <TextBox x:Name="DivisorTextBox" HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap"
+                 Text="" VerticalAlignment="Top" Width="120" />
+        <Label Content="Divisor" HorizontalAlignment="Left" Margin="135,38,0,0" VerticalAlignment="Top" />
+
+        <TextBox x:Name="ResultTextBox" HorizontalAlignment="Left" Height="23" Margin="10,66,0,0" TextWrapping="Wrap"
+                 Text="" VerticalAlignment="Top" Width="120" />
+        <Label Content="Result" HorizontalAlignment="Left" Margin="135,66,0,0"
+               VerticalAlignment="Top" />
+
+        <Button x:Name="DivideButton" Content="Divide" HorizontalAlignment="Left" Margin="10,94,0,0"
+                VerticalAlignment="Top" Width="75" Click="divideButton_Click" />
     </Grid>
 </Window>
