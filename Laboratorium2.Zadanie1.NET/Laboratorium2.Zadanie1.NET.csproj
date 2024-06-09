@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <UserSecretsId>0a5040a3-71e3-491e-a084-869117d90de1</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Diagnostics.EventLog" Version="9.0.0-preview.2.24128.5" />
+      <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.0-preview.2.24128.5" />
+    </ItemGroup>
+
+</Project>
